@@ -1,0 +1,20 @@
+body{
+  display: grid;
+  grid:auto auto/1fr 400px 800px 1fr;
+  background:lightblue;//#fdfdfd;
+}
+header{
+  grid-column: 1/5;
+  grid-row:1;
+  background:grey;
+}
+aside{
+  grid-column: 2/3;
+  grid-row:2;
+  background: pink;
+}
+main{
+  grid-column: 3/4;
+  grid-row: 2;
+  background:lightcyan;
+}
