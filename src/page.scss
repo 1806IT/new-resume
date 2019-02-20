@@ -1,0 +1,31 @@
+header{
+
+  padding: 15px 0 15px 0;
+  background: #444;
+  figure{
+
+    text-align: center;
+    color: #fff;
+    img{
+      width: 60px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    figcaption{
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    p{
+      padding-top: 10px;
+      color: #ccc;
+    }
+
+  }
+  #logo{
+    width:80px;
+    position: fixed;
+    display: inline;
+    top: 4%;
+    left: 5%;
+  }
+}
