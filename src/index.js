@@ -1,9 +1,9 @@
 import  './m1'
-import y from './m2'
+import skills from './skills'
 import './style.scss'
 import './page.scss'
 import './common.scss'
 
-y()
+skills()
 
 console.log(1111)

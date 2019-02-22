@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/common.scss":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/common.scss ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n  -webkit-box-sizing: border-box;\\n  -moz-box-sizing: border-box;\\n  box-sizing: border-box;\\n  text-decoration: none; }\\n\\nbody {\\n  font: 14px/1.5 Arial;\\n  color: #333;\\n  padding-bottom: 30px; }\\n\\nul {\\n  margin-left: 1em; }\\n\\nli {\\n  margin-top: 10px;\\n  padding: 0 2em; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/common.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/page.scss":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/page.scss ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"header {\\n  padding: 15px 0 15px 0;\\n  background: #444; }\\n  header figure {\\n    text-align: center;\\n    color: #fff; }\\n    header figure img {\\n      width: 60px;\\n      border-radius: 50%;\\n      margin-top: 20px; }\\n    header figure figcaption {\\n      font-weight: bold;\\n      margin-top: 10px; }\\n    header figure p {\\n      padding-top: 10px;\\n      color: #ccc; }\\n  header #logo {\\n    width: 80px;\\n    position: fixed;\\n    display: inline;\\n    top: 4%;\\n    left: 5%; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/page.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/style.scss":
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/style.scss ***!
@@ -93,7 +115,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background: grey; }\\n  body div {\\n    background: blue; }\\n    body div h1 {\\n      color: white;\\n      font-size: 33px;\\n      padding: 10px; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  display: grid;\\n  grid: auto auto/1fr 400px 800px 1fr;\\n  background: lightblue; }\\n\\nheader {\\n  grid-column: 1/5;\\n  grid-row: 1;\\n  background: grey; }\\n\\naside {\\n  grid-column: 2/3;\\n  grid-row: 2;\\n  background: pink; }\\n\\nmain {\\n  grid-column: 3/4;\\n  grid-row: 2;\\n  background: lightcyan; }\\n\\n@media (max-width: 1000px) {\\n  body {\\n    grid: auto auto / 330px auto;\\n    grid-column-gap: 20px; }\\n  header {\\n    grid-column: 1/3;\\n    grid-row: 1; }\\n  aside {\\n    grid-column: 1/2;\\n    grid-row: 2;\\n    background: pink; }\\n  main {\\n    grid-column: 2/3;\\n    grid-row: 2;\\n    background: lightcyan; } }\\n\\n@media (max-width: 700px) {\\n  body {\\n    grid: auto auto / 330px auto;\\n    grid-column-gap: 20px; }\\n  header {\\n    grid-column: 1/3;\\n    grid-row: 1; }\\n  aside {\\n    grid-column: 1/2;\\n    grid-row: 2;\\n    background: pink; } }\\n\\n@media (max-width: 550px) {\\n  body {\\n    grid: auto auto auto/1fr; }\\n  header {\\n    grid-column: 1;\\n    grid-row: 1; }\\n  main {\\n    grid-column: 1;\\n    grid-row: 2; }\\n  aside {\\n    grid-column: 1;\\n    grid-row: 3; } }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -131,6 +153,17 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
+/***/ "./src/common.scss":
+/*!*************************!*\
+  !*** ./src/common.scss ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/lib/loader.js!./common.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/common.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/common.scss?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -139,7 +172,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _m1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./m1 */ \"./src/m1.js\");\n/* harmony import */ var _m2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./m2 */ \"./src/m2.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nObject(_m1__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\nObject(_m2__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\nconsole.log(1111);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _m1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./m1 */ \"./src/m1.js\");\n/* harmony import */ var _m1__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_m1__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _m2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./m2 */ \"./src/m2.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _page_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./page.scss */ \"./src/page.scss\");\n/* harmony import */ var _page_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_page_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./common.scss */ \"./src/common.scss\");\n/* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_common_scss__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nObject(_m2__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\nconsole.log(1111);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -147,11 +180,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _m1_
 /*!*******************!*\
   !*** ./src/m1.js ***!
   \*******************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction fn() {\n  console.log('fuck');\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (fn);\n\n//# sourceURL=webpack:///./src/m1.js?");
+eval("\n\n//# sourceURL=webpack:///./src/m1.js?");
 
 /***/ }),
 
@@ -164,6 +196,17 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction fn() {\n  console.lo
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\nfunction fn() {\n  console.log(2);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (fn);\n\n//# sourceURL=webpack:///./src/m2.js?");
+
+/***/ }),
+
+/***/ "./src/page.scss":
+/*!***********************!*\
+  !*** ./src/page.scss ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/lib/loader.js!./page.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/page.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/page.scss?");
 
 /***/ }),
 
