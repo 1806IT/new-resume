@@ -29,3 +29,60 @@ header{
     left: 5%;
   }
 }
+section{
+  padding: 10px;
+  display:grid;
+  grid:auto auto/50px 120px 1fr;
+  grid-row-gap: 10px;
+  margin-top:20px;
+  align-items: center;
+  border-bottom: 2px solid #aaa;
+  width:95%;
+  .iconfont{
+    width: 30px;
+    border-radius: 50%;
+    grid-row: 1;
+    background: #66a9a3;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  h2{
+    font-size: 20px;
+    grid-row: 1;
+    grid-column:2;
+  }
+  hr{
+    border: 3px solid #66a9a3;
+    border-radius:1.5px;
+  }
+  .detail{
+    grid-row:2;
+    grid-column:2/4;
+    margin-top: 5px;
+    //background: lightgreen;
+    .icon-list{
+      grid-template-columns: 80px 2fr 1fr;
+      span{
+        grid-column: 1/2;
+      }
+      .iconfont{
+        font-size: 22px;
+        text-align: center;
+        margin-right:19px;
+      }
+    }
+    h3>a{
+      font-size: 16px;
+    }
+  }
+  #skills{
+    grid-row:2;
+    grid-column:1/4;
+    background:white;
+    height: 210px;
+    width:270px;
+    margin:0 auto;
+  }
+
+}

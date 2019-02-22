@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>test</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_982432_arlboegf3jr.css">
 </head>
 <body>
 <header>
@@ -15,12 +16,139 @@
     <img src="./img/resume-log.png" alt="简历二维码" id="logo">
 </header>
 <main>
-
+    <section>
+        <span class="iconfont icon-project"></span>
+        <h2>项目经历</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel">
+                <h3>模仿豆瓣项目</h3>
+                <div class="detail">
+                    <ul>
+                        <li>项目介绍： 一个移动端豆瓣电影推荐入口，展示 Top250和北美排行电影列表，可搜索电影。</li>
+                        <li>技术栈：vue、vue-router、jquery、webpack、es6、ajax、axios、webpack、移动端</li>
+                        <li>项目成果: 分别采用jquery和vue仿造豆瓣电影项目，在此过程中熟悉了jquery和vue常用的操作方法和规范。</li>
+                        <li>该项目遇到的问题：1）初次使用axios时，发现不能正常获取数据，google查询原因为跨域问题，尝试了修改URL，修改get请求头等方法始终不能正确得到数据，最后采用代理方式解决此问题</li>
+                        <li>2)代码上传至github后通过预览方式后发现HTTPS页面里动态的引入HTTP资源，不能正常获取数据，尝试iframe,将https改为http均不能解决此问题，百度搜索后解决方案为在将http升级为https后解决</li>
+                        <li><a href="https://github.com/1806IT/Pj-movie">采用jquery编写的代码链接</a></li>
+                        <li><a href="https://github.com/1806IT/demo-vue-douban">采用vue框架编写的代码链接</a></li>
+                        <li><a href="https://1806it.github.io/Pj-movie/.">项目预览链接</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-panel">
+                <h3>todo</h3>
+                <div class="detail">
+                    <ul>
+                        <li>项目介绍： todolist用于方便的记录个人事项，作为便签使用。</li>
+                        <li>技术栈：vue、bootstrap,jquery,JSON、webpack、es6,localStorage</li>
+                        <li><a href="https://github.com/1806IT/Pj-movie">采用jquery，面向对象方式编写的github链接</a></li>
+                        <li><a href="">采用vue框架编写的github链接</a></li>
+                        <li><a href="">项目预览链接</a></li>
+                        <li>项目成果: 分别采用jquery和vue仿造toDoList项目，在此过程中熟悉了jquery和vue常用的操作方法和规范。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-panel">
+                <h3>todo</h3>
+                <div class="detail">
+                    <ul>
+                        <li>项目介绍： todolist用于方便的记录个人事项，作为便签使用。</li>
+                        <li>技术栈：vue、bootstrap,jquery,JSON、webpack、es6,localStorage</li>
+                        <li><a href="https://github.com/1806IT/Pj-movie">采用jquery，面向对象方式编写的github链接</a></li>
+                        <li><a href="">采用vue框架实现项目预览链接</a></li>
+                        <li>项目成果: 分别采用jquery和vue仿造toDoList项目，在此过程中熟悉了jquery和vue常用的操作方法和规范。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-panel">
+                <h3>Canvas画板</h3>
+                <div class="detail">
+                    <ul>
+                        <li>项目介绍：能在手机端和PC电脑端画图的小工具 。</li>
+                        <li>技术栈：jquery,JavaStrap,canvas</li>
+                        <li><a href="https://github.com/1806IT/Pj-movie">采用jquery，面向对象方式编写的github链接</a></li>
+                        <li><a href="">项目采用原生JS预览链接</a></li>
+                        <li>项目成果: 分别采用jquery和JS搭建的canvas项目，在此过程中熟悉了canvas常用的API方法和规范。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-edu-line"></span>
+        <h2>教育经历</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel-flex">
+                <div class="date-flex">2004~2008</div>
+                <h3> 湖南工程学院</h3>
+                <p class="intro-flex">电气工程及其自动化</p>
+            </div>
+            <p class="content-flex">
+                多次获得奖学金，成绩排名专业前10%;曾获大学生电子设计竞赛湖南赛区一等奖。
+            </p>
+        </div>
+    </section>
 </main>
 <aside>
-    <div id="skills" style="width: 400px;height:300px;background: white;"></div>
+    <section>
+        <span class="iconfont icon-skills"></span>
+        <h2>技能图谱</h2>
+        <hr>
+        <div id="skills"></div>
+    </section>
+    <section>
+        <span class="iconfont icon-gerenxinxi1"></span>
+        <h2>基本信息</h2>
+        <hr>
+        <div class="detail">
+            <div class="icon-list"><span class="iconfont icon-phone"></span>13607328704</div>
+            <div class="icon-list"><span class="iconfont icon-weixin"></span>370531378</div>
+            <div class="icon-list"><span class="iconfont icon-email"></span>370531378@qq.com</div>
+            <div class="icon-list"><span class="iconfont icon-xuexiao"></span>本科</div>
+            <div class="icon-list"><span class="iconfont icon-iconcity"></span>湘潭</div>
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-jingyanzhi"></span>
+        <h2>掌握技能</h2>
+        <hr>
+        <div class="detail">
+            <ul>
+                <li>掌握HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等；</li>
+                <li>能熟练使用jquery进行开发，掌握相关使用的方法；</li>
+                <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念；</li>
+                <li>熟悉Canvas的基本开发，了解eCharts的基本使用方法；</li>
+                <li>熟悉前后端交互技术JSONP、AJAX，了解fetch；</li>
+                <li>了解Node.js，PHP基本语法，能看懂用PHP开发的后端语言。</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-zuopin"></span>
+        <h2>作品集</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel">
+                <h3>Vue项目
+                    <br>
+                    <a href="">用vue仿建cnode社区</a>、
+                    <a href="">仿造豆瓣电影</a>、
+                    <a href="">造vue的轮子button，topbar两个轮子</a>
+                </h3>
+                <br>
+                <h3>原生JS及JQuery项目
+                    <br>
+                    <a href="">导航网站</a>、
+                    <a href="">动态简历</a>、
+                    <a href="">画一支皮卡丘</a>、
+                    <a href="">仿造豆瓣电影</a>
+                </h3>
+            </div>
+        </div>
+    </section>
 </aside>
-
 <script src="main.js"></script>
 
 </body>

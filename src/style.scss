@@ -1,22 +1,26 @@
 body{
   display: grid;
   grid:auto auto/1fr 400px 600px 1fr;
-  background:lightblue;//#fdfdfd;
+  background: white;
 }
 header{
   grid-column: 1/5;
   grid-row:1;
-  background:grey;
+  background:#fdfdfd;
 }
 aside{
   grid-column: 2/3;
   grid-row:2;
-  background: pink;
+  background: #ececec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 main{
   grid-column: 3/4;
   grid-row: 2;
-  background:lightcyan;
+  background:#fff;
 }
 @media (max-width: 1000px) {
   body {
@@ -30,12 +34,12 @@ main{
   aside{
      grid-column: 1/2;
      grid-row:2;
-     background: pink;
+    background:#fff;
    }
   main{
     grid-column: 2/3;
     grid-row: 2;
-    background:lightcyan;
+    background:#fff;
   }
 }
 
@@ -51,7 +55,6 @@ main{
   aside{
     grid-column: 1/2;
     grid-row:2;
-    background: pink;
   }
 }
 

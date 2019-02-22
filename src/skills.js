@@ -14,11 +14,11 @@ function fn() {
             // shape: 'circle',
             name: {
                 textStyle: {
-                    color: '#fff',
-                    backgroundColor: '#999',
+                    color: '#444',
                     borderRadius: 3,
-                    padding: [3, 5]
-                }
+                    fontSize:9,
+                    // margin:[-3,9]
+                },
             },
             indicator: [
                 { name: 'HTML', max: 100},
@@ -39,7 +39,14 @@ function fn() {
                     name : '能力评估'
                 }
             ]
-        }]
+        }],
+        grid: {
+            left: "10%",
+            top: "10%",
+            bottom: "10%",
+            right: "10%",
+            containLabel: true
+        },
     };
 
     // 使用刚指定的配置项和数据显示图表。
