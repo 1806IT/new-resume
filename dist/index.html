@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="//at.alicdn.com/t/font_982432_arlboegf3jr.css">
 </head>
 <body>
-<header>
-    <figure>
-        <img src="./img/01_06.jpg" alt="头像">
+<header >
+
+    <figure >
+
+        <img src="./img/me.jpg" alt="头像" id="portrait">
         <figcaption>朱智聪</figcaption>
         <p>应聘前端工程师</p>
+        <img src="./img/resume-log.png" alt="简历二维码" id="logo">
     </figure>
-    <img src="./img/resume-log.png" alt="简历二维码" id="logo">
+
 </header>
 <main>
-    <section>
+    <section class="wrapper">
         <span class="iconfont icon-project"></span>
         <h2>项目经历</h2>
         <hr>
@@ -32,32 +35,38 @@
                         <li>2)代码上传至github后通过预览方式后发现HTTPS页面里动态的引入HTTP资源，不能正常获取数据，尝试iframe,将https改为http均不能解决此问题，百度搜索后解决方案为在将http升级为https后解决</li>
                         <li><a href="https://github.com/1806IT/Pj-movie">采用jquery编写的代码链接</a></li>
                         <li><a href="https://github.com/1806IT/demo-vue-douban">采用vue框架编写的代码链接</a></li>
-                        <li><a href="https://1806it.github.io/Pj-movie/.">项目预览链接</a></li>
+                        <li>
+                            <a href="https://1806it.github.io/Pj-movie/.">项目预览链接 <br>
+                                <div class="wrapper">
+                                    <img src="./img/movie.png" alt="豆瓣" class=" preview">
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="timeline-panel">
+            <!--<div class="timeline-panel">
                 <h3>todo</h3>
                 <div class="detail">
                     <ul>
                         <li>项目介绍： todolist用于方便的记录个人事项，作为便签使用。</li>
-                        <li>技术栈：vue、bootstrap,jquery,JSON、webpack、es6,localStorage</li>
+                        <li>使用的技术：分别用jquery和vue实现了该项目；使用到的技术有bootstrap,JSON、webpack、es6,localStorage</li>
                         <li><a href="https://github.com/1806IT/Pj-movie">采用jquery，面向对象方式编写的github链接</a></li>
-                        <li><a href="">采用vue框架编写的github链接</a></li>
+                        <li><a href="https://1806it.github.io/vue-todo/todo2.html">采用vue框架编写的github链接</a></li>
+                        <li><a href="">采用jquery编写的代码链接</a></li>
                         <li><a href="">项目预览链接</a></li>
                         <li>项目成果: 分别采用jquery和vue仿造toDoList项目，在此过程中熟悉了jquery和vue常用的操作方法和规范。</li>
                     </ul>
                 </div>
-            </div>
+            </div>-->
             <div class="timeline-panel">
-                <h3>todo</h3>
+                <h3>仿建cnode社区</h3>
                 <div class="detail">
                     <ul>
-                        <li>项目介绍： todolist用于方便的记录个人事项，作为便签使用。</li>
-                        <li>技术栈：vue、bootstrap,jquery,JSON、webpack、es6,localStorage</li>
-                        <li><a href="https://github.com/1806IT/Pj-movie">采用jquery，面向对象方式编写的github链接</a></li>
-                        <li><a href="">采用vue框架实现项目预览链接</a></li>
-                        <li>项目成果: 分别采用jquery和vue仿造toDoList项目，在此过程中熟悉了jquery和vue常用的操作方法和规范。</li>
+                        <li>项目介绍： 该项目是我学习vue中仿造别人的项目，通过该项目掌握了vue的基础知识。</li>
+                        <li>使用的相关技术：vue、vue-router,JSON、webpack、es6</li>
+                        <li><a href="https://github.com/1806IT/cnode">代码链接</a></li>
+                        <li>通过该项目，我掌握了vue.js计算属性，内置指令和事件的绑定，自定义事件的触发，vue-router路由的跳转和监听，父子组件的通讯 。</li>
                     </ul>
                 </div>
             </div>
@@ -67,15 +76,40 @@
                     <ul>
                         <li>项目介绍：能在手机端和PC电脑端画图的小工具 。</li>
                         <li>技术栈：jquery,JavaStrap,canvas</li>
-                        <li><a href="https://github.com/1806IT/Pj-movie">采用jquery，面向对象方式编写的github链接</a></li>
-                        <li><a href="">项目采用原生JS预览链接</a></li>
+                        <li><a href="https://github.com/1806IT/jquery-canvas">采用jquery，面向对象方式编写的github链接</a></li>
+                        <li><a href="https://github.com/1806IT/canvas1">项目采用原生JS预览链接</a></li>
                         <li>项目成果: 分别采用jquery和JS搭建的canvas项目，在此过程中熟悉了canvas常用的API方法和规范。</li>
+                        <li>
+                            <a href="https://1806it.github.io/jquery-canvas/.">项目预览链接 <br>
+                                <div class="wrapper">
+                                    <img src="./img/canvas.jpg" alt="画板" class=" preview">
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
+            <div class="timeline-panel">
+               <h3>导航网站</h3>
+               <div class="detail">
+                   <ul>
+                       <li>项目介绍： 建立了一个页面的导航网站，将所要保存的网站保存到localStorage中。</li>
+                       <li><a href="https://github.com/1806IT/project-banner">采用原生JS编写的github链接</a></li>
+                       <li><a href="">采用jquery编写的代码链接</a></li>
+                       <li>
+                           <a href="https://1806it.github.io/project-banner/.">项目预览链接 <br>
+                               <div class="wrapper">
+                                   <img src="./img/banner.jpg" alt="导航网站" class=" preview">
+                               </div>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
         </div>
     </section>
-    <section>
+
+    <section class="wrapper">
         <span class="iconfont icon-edu-line"></span>
         <h2>教育经历</h2>
         <hr>
@@ -92,13 +126,7 @@
     </section>
 </main>
 <aside>
-    <section>
-        <span class="iconfont icon-skills"></span>
-        <h2>技能图谱</h2>
-        <hr>
-        <div id="skills"></div>
-    </section>
-    <section>
+    <section class="wrapper">
         <span class="iconfont icon-gerenxinxi1"></span>
         <h2>基本信息</h2>
         <hr>
@@ -110,41 +138,42 @@
             <div class="icon-list"><span class="iconfont icon-iconcity"></span>湘潭</div>
         </div>
     </section>
-    <section>
+    <section class="wrapper">
         <span class="iconfont icon-jingyanzhi"></span>
         <h2>掌握技能</h2>
         <hr>
         <div class="detail">
             <ul>
-                <li>掌握HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等；</li>
+                <li>熟练掌握HTML标签，理解语义化标签，DOM结构和操作，能按照UI设计还原页面；</li>
+                <li>掌握CSS核心概念如块级元素和行内元素、盒模型、文档流、浮动、BFC等、熟悉传统布局、Flex布局、Grid布局等；</li>
+                <li>熟练掌握原生JavaScript和部分ES6，理解重要概念如：原型、闭包、作用域链、面向对象、异步操作；</li>
                 <li>能熟练使用jquery进行开发，掌握相关使用的方法；</li>
-                <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念；</li>
+                <li>有Vue、Vue-Router、Vue-CLI及相关流行库的使用经验；</li>
                 <li>熟悉Canvas的基本开发，了解eCharts的基本使用方法；</li>
+                <li>熟悉HTTP协议和浏览器渲染原理；</li>
                 <li>熟悉前后端交互技术JSONP、AJAX，了解fetch；</li>
-                <li>了解Node.js，PHP基本语法，能看懂用PHP开发的后端语言。</li>
+                <li>了解webpack基本配置和前端性能优化。</li>
             </ul>
         </div>
     </section>
-    <section>
+    <section class="wrapper">
+        <span class="iconfont icon-skills"></span>
+        <h2>技能图谱</h2>
+        <hr>
+        <div id="skills" class="detail"></div>
+    </section>
+    <section class="wrapper">
         <span class="iconfont icon-zuopin"></span>
         <h2>作品集</h2>
         <hr>
         <div class="detail">
             <div class="timeline-panel">
-                <h3>Vue项目
-                    <br>
-                    <a href="">用vue仿建cnode社区</a>、
-                    <a href="">仿造豆瓣电影</a>、
-                    <a href="">造vue的轮子button，topbar两个轮子</a>
-                </h3>
+                <h3>我的的博客合集</h3>
+                    <p>在学习前端的过程中，有很多的知识点需要学习，为了防止自己忘记一些细小的知识点，在这里我选择将这些记录在我的博客中，如果感兴趣可以点击或扫码查看</p>
+                    <a href="https://www.zhihu.com/people/zhu-zhi-cong/posts">点击查看</a>
                 <br>
-                <h3>原生JS及JQuery项目
-                    <br>
-                    <a href="">导航网站</a>、
-                    <a href="">动态简历</a>、
-                    <a href="">画一支皮卡丘</a>、
-                    <a href="">仿造豆瓣电影</a>
-                </h3>
+                    <img src="./img/bolg.png" alt="简历二维码" id="demo">
+                <br>
             </div>
         </div>
     </section>
