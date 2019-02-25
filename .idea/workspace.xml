@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71d8bc76-302c-45c6-a174-6d54e415ca02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="71d8bc76-302c-45c6-a174-6d54e415ca02" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dist/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="172" column="76" selection-start-line="172" selection-start-column="76" selection-end-line="172" selection-end-column="76" />
+                <state relative-caret-position="203">
+                  <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -87,8 +76,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+                <state relative-caret-position="270">
+                  <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -161,7 +150,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="181" />
+    <option name="x" value="70" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
@@ -171,7 +160,30 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scss-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scss-resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scss-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scss-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scss-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scss-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -223,7 +235,7 @@
       <workItem from="1550885517468" duration="1040000" />
       <workItem from="1551052388264" duration="1666000" />
       <workItem from="1551074733240" duration="13224000" />
-      <workItem from="1551096845404" duration="6798000" />
+      <workItem from="1551096845404" duration="7259000" />
     </task>
     <task id="LOCAL-00001" summary="完成header">
       <created>1550673638496</created>
@@ -250,16 +262,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61595000" />
+    <option name="totallyTimeSpent" value="62056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="181" y="23" width="1440" height="805" extended-state="0" />
+    <frame x="120" y="440" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.14492753" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14446793" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49459195" visible="true" weight="0.14586255" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49459195" visible="true" weight="0.14586255" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50540805" side_tool="true" weight="0.45878136" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -392,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="172" column="76" selection-start-line="172" selection-start-column="76" selection-end-line="172" selection-end-column="76" />
+        <state relative-caret-position="203">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
